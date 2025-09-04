@@ -10,19 +10,12 @@
   font-weight: ubuntu, zain !important;
 }
 
-.bgLayer {
-  position: absolute;
-  inset: 0;
-  height: 100dvh;
-  width: 100dvw;
-  background-image: url("/public/img/bg-big.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
 section {
   padding: 50px 0px;
   color: #fff;
+  background-image: url("/public/img/bg-big.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .weatherApp {
@@ -122,7 +115,7 @@ section {
     font-size: 14px;
   }
 
-  .bgLayer {
+  section {
     background-image: url("/public/img/bg-small.jpg");
   }
 }
