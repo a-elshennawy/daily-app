@@ -1,0 +1,124 @@
+@import url("./fonts.css");
+
+:root {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  text-transform: capitalize !important;
+  font-weight: ubuntu, zain !important;
+}
+
+body {
+  background-image: url("img/bg-big.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+section {
+  padding: 50px 0px;
+  color: #fff;
+}
+
+.weatherApp {
+  .search-container {
+    padding-bottom: 20px;
+    input {
+      border-radius: 8px;
+      padding: 5px;
+    }
+  }
+
+  .current-weather {
+    padding: 10px 0px;
+    .weatherCard {
+      padding: 10px 5px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      svg {
+        margin-inline-end: 5px;
+      }
+    }
+  }
+
+  .currTime {
+    padding: 10px 5px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: fit-content;
+
+    svg {
+      font-size: 25px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .dates {
+    padding: 10px 0px;
+    .dateItem {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+
+      svg {
+        margin-inline-end: 5px;
+      }
+    }
+  }
+
+  .weather-forecast {
+    padding: 20px 0px;
+
+    .forecastItem {
+      padding: 10px 5px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      svg {
+        margin-inline-end: 5px;
+      }
+    }
+  }
+
+  .prayer-times {
+    padding: 20px 0px;
+
+    .prayer-container {
+      .prayerItem {
+        padding: 10px 5px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+
+        img {
+          margin-inline-end: 5px;
+        }
+      }
+    }
+  }
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 992px) {
+  :root {
+    font-size: 14px;
+  }
+
+  body {
+    background-image: url("img/bg-small.jpg");
+  }
+}
