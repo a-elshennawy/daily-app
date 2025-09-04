@@ -10,7 +10,11 @@
   font-weight: ubuntu, zain !important;
 }
 
-body {
+.bgLayer {
+  position: absolute;
+  inset: 0;
+  height: 100dvh;
+  width: 100dvw;
   background-image: url("/public/img/bg-big.jpg");
   background-position: center;
   background-size: cover;
@@ -118,7 +122,7 @@ section {
     font-size: 14px;
   }
 
-  body {
+  .bgLayer {
     background-image: url("/public/img/bg-small.jpg");
   }
 }
