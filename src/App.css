@@ -119,6 +119,15 @@ section {
   transform: translate(-50%, -50%);
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 @media screen and (max-width: 992px) {
   :root {
     font-size: 14px;
