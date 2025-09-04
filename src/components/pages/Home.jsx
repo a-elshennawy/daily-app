@@ -152,7 +152,6 @@ export default function Home() {
 
   return (
     <>
-      <div className="bgLayer"></div>
       <section className="weatherApp container-fluid row justify-content-center align-items-center text-center m-0">
         {/* City Search */}
         <div className="search-container col-12">

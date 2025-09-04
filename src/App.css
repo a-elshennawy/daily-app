@@ -70,6 +70,7 @@ section {
       display: inline-flex;
       justify-content: center;
       align-items: center;
+      width: fit-content;
 
       svg {
         margin-inline-end: 5px;
